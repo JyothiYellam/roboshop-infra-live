@@ -7,11 +7,11 @@ variable "environment" {
 }
 
 variable "zone_id" {
-    default = "Z05013202FKF0ZL12WAOP"
+    default = "Z071893432FCPCLO7IMZ1"
 }
 
 variable "domain_name" {
-    default = "daws88s.online"
+    default = "jyothiy.online"
 }
 
 variable "app_version" {
