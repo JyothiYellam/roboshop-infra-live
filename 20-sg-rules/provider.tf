@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "amazon-ter-s3-bucket" # Replace with your unique bucket name
+    bucket  = "remote-state-aws-s3-dev" # Replace with your unique bucket name
     key     = "roboshop-dev-sg-rules"
     region  = "us-east-1"
     encrypt = true
