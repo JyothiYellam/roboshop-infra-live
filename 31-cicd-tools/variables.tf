@@ -15,6 +15,10 @@ variable "domain_name" {
     default = "jyothiy.online"
 }
 
+variable "sonar" {
+    default = true
+}
+
 variable "jenkins" {
     default = true
 }
