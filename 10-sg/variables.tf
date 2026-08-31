@@ -22,7 +22,7 @@ variable "sg_names" {
         # Bastion
         "bastion",
         # Openvpn
-        "openvpn"
+        "openvpn" ,
         "jenkins","jenkins_agent",
         "sonar","runner"
     ]
