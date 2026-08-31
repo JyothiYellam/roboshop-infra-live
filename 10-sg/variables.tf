@@ -11,18 +11,12 @@ variable "sg_names" {
     default = [
         # Databases
         "mongodb", "redis", "mysql", "rabbitmq",
-        # Backend
-        "catalogue", "user", "cart", "shipping", "payment",
-        # Backend ALB
-        "backend_alb",
-        # Frontend
-        "frontend",
-        # Frontend ALB
-        "frontend_alb",
+        "ingress_alb",
         # Bastion
         "bastion",
         # Openvpn
-        "openvpn" ,
+        "openvpn",
+        "eks_control_plane","eks_node",
         "jenkins","jenkins_agent",
         "sonar","runner"
     ]
