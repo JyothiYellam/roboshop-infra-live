@@ -83,7 +83,7 @@ resource "aws_instance" "runner" {
 resource "aws_instance" "sonarqube" {
   count = var.sonar ? 1 : 0
   ami           = local.sonar_ami_id
-  instance_type = "t3.medium"
+  instance_type = "t3.small"
   vpc_security_group_ids = [local.sonar_sg_id]
   subnet_id = local.public_subnet_id #replace your Subnet in default VPC
   key_name = "Terraform"
